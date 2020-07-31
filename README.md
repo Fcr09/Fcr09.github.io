@@ -1,4 +1,3 @@
-# Hello world. Hello github
 # 数据类型
 int float double 
 # 预处理
@@ -11,3 +10,4 @@ int float double
 单词查找；  
 指南浏览；  
 动手试错；  
+# Hello world. Hello github
