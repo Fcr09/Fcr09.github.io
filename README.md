@@ -1,5 +1,8 @@
 # 数据类型
-int float double 
+int; short int;long int;对应字节数，数字范围  
+float double 小数形式（必须含小数点） 指数形式xEy  
+char  
+类型转换 自然转换 强制转换
 # 预处理
 #include <stdio.h>/<math.h>   
 #define 常量 数值  
