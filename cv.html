@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Curriculum vitae of Chenrui Fan, a Ph.D. student in Computer Science at the University of Maryland." />
+    <meta name="theme-color" content="#fbfaf7" />
+    <title>CV · Chenrui Fan</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23284962'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='serif' font-size='30' fill='white'%3ECF%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="site-name" href="index.html">Chenrui Fan</a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="publications.html">Publications</a>
+          <a href="background.html">Background</a>
+          <a class="active-page" href="cv.html" aria-current="page">CV</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main cv-page">
+      <header class="page-hero container cv-hero">
+        <div>
+          <p class="section-label">Curriculum vitae</p>
+          <h1>CV</h1>
+          <p>Education, research, publications, experience, and academic service.</p>
+        </div>
+        <div class="cv-actions">
+          <a class="button" href="assets/chenrui-fan-cv.pdf" target="_blank" rel="noreferrer">Open PDF ↗</a>
+          <a class="button primary" href="assets/chenrui-fan-cv.pdf" download="Chenrui-Fan-CV.pdf">Download CV</a>
+        </div>
+      </header>
+      <section class="cv-document container" aria-label="CV document preview">
+        <object data="assets/chenrui-fan-cv.pdf" type="application/pdf" title="Chenrui Fan curriculum vitae">
+          <p>Your browser cannot display this PDF. <a href="assets/chenrui-fan-cv.pdf">Open the CV directly</a>.</p>
+        </object>
+      </section>
+    </main>
+    <footer><div class="container"><span>© <span class="year"></span> Chenrui Fan</span><span>Last updated October 2026</span></div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
